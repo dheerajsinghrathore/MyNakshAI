@@ -26,7 +26,7 @@ export type ConversationMessage = {
   createdAt: string;
   recommendations?: Recommendation[];
   sendStatus?: 'sending' | 'sent' | 'failed';
-  replyTo?: {id: string; text: string};
+  replyTo?: { id: string; text: string };
 };
 
 export type TimelineItem =
