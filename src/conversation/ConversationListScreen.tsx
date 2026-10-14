@@ -80,7 +80,7 @@ export function ConversationListScreen() {
           <Text style={styles.brandMarkText}>✦</Text>
         </View>
         <View style={styles.headerCopy}>
-          <Text style={styles.eyebrow}>YOUR COSMIC GUIDE</Text>
+          <Text style={styles.eyebrow}>MY NAKSH AI</Text>
           <Text style={styles.headerTitle}>Conversations</Text>
         </View>
         <Pressable
@@ -141,13 +141,13 @@ const styles = StyleSheet.create({
   brandMarkText: { fontSize: 23, color: '#8A6500' },
   headerCopy: { flex: 1 },
   eyebrow: {
-    fontSize: 9,
+    fontSize: 14,
     letterSpacing: 1.35,
     fontWeight: '800',
     color: '#978BA2',
     marginBottom: 3,
   },
-  headerTitle: { fontSize: 21, fontWeight: '800', color: '#302A36' },
+  headerTitle: { fontSize: 16, fontWeight: '800', color: '#302A36' },
   newButton: {
     width: 39,
     height: 39,
