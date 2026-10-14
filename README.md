@@ -42,25 +42,5 @@ The conversation uses `FlatList` for virtualized message rendering and provides 
 
 To keep the experience runnable without a backend, conversations, send outcomes, and network failures are mocked, and changes are held only in screen state. The conversation selector currently opens seeded content rather than loading data by conversation ID. Recommendation actions are illustrative callbacks rather than full feature navigation. A production integration should replace the timers and random failures with API requests, persist conversations and feedback, and define retry and offline behavior against real server responses.
 
-## Run the app
-
-Install JavaScript dependencies with `npm install`. Start Metro:
-
-```sh
-npm start
-```
-
-In another terminal, launch a platform:
-
-```sh
-npm run ios
-# or
-npm run android
-```
-
-For iOS, install CocoaPods dependencies after setup or native dependency changes:
-
-```sh
-bundle install
-bundle exec pod install
-```
+## Author
+### Dheeraj Rathore
