@@ -22,7 +22,7 @@ export const mockConversations: Conversation[] = [
     lastMessage: 'Focus on your upcoming Jupiter transit.',
     updatedAt: '5:45 PM',
     avatar: 'A',
-    unreadCount: 1,
+    unreadCount: 0,
   },
   {
     id: 'tarot-reading',
