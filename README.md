@@ -2,6 +2,10 @@
 
 A React Native conversation experience with a conversation list, message timeline, interactive message actions, feedback, and reusable recommendation cards. Conversation data and network activity are currently simulated locally.
 
+## Demo video
+
+[Watch the app walkthrough](https://drive.google.com/file/d/1t_jXwlaRqbahZnvIj15VVCn9sAD8gRGN/view?usp=drive_link)
+
 ## Project structure
 
 ```text
